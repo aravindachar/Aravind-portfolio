@@ -10,5 +10,5 @@ export default defineConfig({
       "@": path.resolve(__dirname, "./src")
     }
   },
-  base: '/Aravind-portfolio/', // ✅ This is the correct base for GitHub Pages
+base: '/' // ✅ This is the correct base for custom domain
 })
