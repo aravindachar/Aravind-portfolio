@@ -11,18 +11,22 @@ export const HeroSection = () => {
           <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold tracking-tight leading-tight">
             <span className="opacity-0 animate-fade-in">Hi, I'm</span>
             <span className="text-primary opacity-0 animate-fade-in-delay-1">
-              {" "}Aravind
+              {" "}Aravinda
             </span>
             <span className="text-gradient ml-2 opacity-0 animate-fade-in-delay-2">
-              {" "}Achar
+              {" "}k Kambar
             </span>
           </h1>
 
   <p className="text-lg sm:text-xl md:text-2xl text-muted-foreground font-normal max-w-2xl mx-auto opacity-0 animate-fade-in-delay-3">
-  I create with code, color, and curiosity.  
-  Every project is a piece of me evolving.  
-  Here’s where art and logic collide.
+My goal is to refactor the user's problems into elegant solutions. Currently in my final sprint before deployment
 </p>
+<pre className="text-lg sm:text-xl md:text-2xl text-muted-foreground font-normal max-w-2xl mx-auto opacity-0 animate-fade-in-delay-3">
+  <code>
+    {`if (challengeExists) {this.solve();
+}else { this.buildNewThing(); }`}
+  </code>
+</pre>
 
 
           <div className="pt-6 opacity-0 animate-fade-in-delay-4">

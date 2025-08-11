@@ -16,8 +16,8 @@ const projects = [
   },
   {
     id: 2,
-    title: "Mini-projects",
-    description: "A full-featured e-commerce site for a sample client.",
+    title: "HTMLS-CSS-JS Mini projects",
+    description: "Projects built while learening ",
     image: "/projects/project2.png",
     tags: ["HTML", "CSS", "JAVASCRIPT"],
     category: "frontend",
@@ -43,6 +43,37 @@ const projects = [
     category: "ml",
     demoUrl: "#",
     githubUrl: "https://github.com/aravindachar",
+  },
+    {
+    id: 5,
+    title: "Data Structure And Algorithm ",
+    description: "Learn DSA with me ",
+    image: "/projects/project4.png",
+    tags: ["DSA", ],
+    category: "Learn With ME",
+    demoUrl: "#",
+    githubUrl: "https://github.com/aravindachar/Data-Structures-and-Algorithms",
+  },
+   {
+    id: 6,
+    title: "JAVA ",
+    description: "Complte java Tutorial for Beginners to advance",
+    image: "/projects/project4.png",
+    tags: ["Beginers", "Intermedite", "OOP's"],
+    category: "Learn With ME",
+    demoUrl: "#",
+    githubUrl: "https://github.com/aravindachar/java",
+  },
+
+  {
+    id: 7,
+    title: "JavaScript",
+    description: "An API that analyzes the sentiment of a given text block.",
+    image: "/projects/project4.png",
+    tags: [ "DOM", "js"],
+    category: "Learn With ME",
+    demoUrl: "#",
+    githubUrl: "https://github.com/aravindachar/javascript-reference",
   },
 ];
 
@@ -105,7 +136,7 @@ export const ProjectsSection = () => {
                   <img
                     loading="lazy"
                     src={project.image}
-                    alt={project.title}
+                    // alt={project.title}
                     className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
                   />
                 </div>
