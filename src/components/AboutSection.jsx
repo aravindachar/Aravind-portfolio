@@ -16,8 +16,7 @@ export const AboutSection = () => {
             </h3>
 
             <p className="text-muted-foreground">
-              I’m Aravind — a web developer who loves turning ideas into clean, functional interfaces.
-              Whether it's a small UI component or a full-stack app, I enjoy building things that make an impact.
+             a machine learning and web developer who enjoys turning ideas into clean, functional solutions. Whether it’s a small model or a full-stack app, I like building things that make an impact.
             </p>
 
             <p className="text-muted-foreground">
@@ -55,20 +54,21 @@ export const AboutSection = () => {
                 </div>
               </div>
             </div>
-
-            <div className="gradient-border p-6 card-hover">
-              <div className="flex items-start gap-4">
-                <div className="p-3 rounded-full bg-primary/10">
-                  <User className="h-6 w-6 text-primary" />
-                </div>
-                <div className="text-left">
-                  <h4 className="font-semibold text-lg">UI/UX Design</h4>
-                  <p className="text-muted-foreground">
-                    Designing interfaces that are simple, clear, and enjoyable to use.
-                  </p>
-                </div>
+            {/* machine learning */}
+          <div className="gradient-border p-6 card-hover">
+            <div className="flex items-start gap-4">
+              <div className="p-3 rounded-full bg-primary/10">
+                <User className="h-6 w-6 text-primary" />
+              </div>
+              <div className="text-left">
+                <h4 className="font-semibold text-lg">Machine Learning & AI</h4>
+                <p className="text-muted-foreground">
+                  Building intelligent systems using deep learning and NLP to solve real-world problems.
+                </p>
               </div>
             </div>
+          </div>
+
 
             <div className="gradient-border p-6 card-hover">
               <div className="flex items-start gap-4">

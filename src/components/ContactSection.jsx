@@ -1,4 +1,5 @@
 import {
+  XIcon ,
   Instagram,
   Linkedin,
   Mail,
@@ -83,7 +84,7 @@ export const ContactSection = () => {
                 <div>
                   <h4 className="font-medium">Location</h4>
                   <p className="text-muted-foreground hover:text-primary transition-colors">
-                    Karnataka, India
+                    Bengaluru , Karnataka, India
                   </p>
                 </div>
               </div>
@@ -92,10 +93,10 @@ export const ContactSection = () => {
             <div className="pt-8">
               <h4 className="font-medium mb-4">Connect With Me</h4>
               <div className="flex space-x-4 justify-center">
-                <a href="#" target="_blank"><Linkedin /></a>
-                <a href="#" target="_blank"><Twitter /></a>
-                <a href="#" target="_blank"><Instagram /></a>
-                <a href="#" target="_blank"><Twitch /></a>
+                <a href="https://www.linkedin.com/in/aravinda-kambar-58b622255/" target="_blank"><Linkedin /></a>
+                <a href=" https://x.com/aravind_achar?t=Ga3rl-GxjhhwmB0CcGk1tA&s=08 " target="_blank"><XIcon /></a>
+                <a href="https://www.instagram.com/aravindacharya_?igsh=cnBjMXB5anAweXc0" target="_blank"><Instagram /></a>
+                {/* <a href="#" target="_blank"><Twitch /></a> */}
               </div>
             </div>
           </div>
