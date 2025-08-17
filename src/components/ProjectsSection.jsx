@@ -36,8 +36,8 @@ const projects = [
   },
   {
     id: 4,
-    title: "Sentiment Analysis API",
-    description: "An API that analyzes the sentiment of a given text block.",
+    title: "IMD_Sentiment_Analysis ",
+    description: "A model that analyses the movie review.",
     image: "/projects/project4.png",
     tags: ["Python", "NLTK", "FastAPI"],
     category: "ml",
